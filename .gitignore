@@ -1,0 +1,9 @@
+# Firebase info file
+sandwich-orders-firebase-adminsdk-atm32-bee6c475c8.json
+
+# IDE config files
+.idea/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]

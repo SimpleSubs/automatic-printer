@@ -1,0 +1,154 @@
+{
+  "orderOptions": [
+    {
+      "defaultValue": "Please select",
+      "key": "bread",
+      "options": ["dutch crunch", "sourdough roll", "ciabatta", "sliced wheat", "sliced sourdough", "gluten free", "no bread"],
+      "required": true,
+      "title": "Bread",
+      "type": "PICKER"
+    },
+    {
+      "defaultValue": "",
+      "key": "meat",
+      "options": ["turkey", "roast beef", "salami", "ham", "tuna salad", "egg salad"],
+      "required": false,
+      "title": "Meat",
+      "type": "CHECKBOX"
+    },
+    {
+      "defaultValue": "",
+      "key": "cheese",
+      "options": ["provolone", "swiss", "cheddar", "fresh mozzarella"],
+      "required": false,
+      "title": "Cheese",
+      "type": "CHECKBOX"
+    },
+    {
+      "defaultValue": "",
+      "key": "condiments",
+      "options": [
+        "pesto",
+        "red vin/olive oil",
+        "roasted red peppers",
+        "pepperoncini",
+        "pickles",
+        "basil",
+        "lettuce",
+        "tomatoes",
+        "hummus",
+        "red onions",
+        "jalapeños",
+        "artichoke hearts"
+      ],
+      "required": false,
+      "title": "Condiments",
+      "type": "CHECKBOX"
+    },
+    {
+      "defaultValue": "",
+      "key": "extras",
+      "options": ["bacon", "avocado", "extra meat"],
+      "required": false,
+      "title": "Extras",
+      "type": "CHECKBOX"
+    },
+    {
+      "defaultValue": "no",
+      "key": "chips",
+      "options": ["no", "yes"],
+      "required": false,
+      "title": "Potato Chips",
+      "type": "PICKER"
+    },
+    {
+      "defaultValue": "",
+      "key": "comments",
+      "required": false,
+      "title": "Comments",
+      "type": "TEXT_INPUT"
+    }
+  ],
+  "userFields": [
+    {
+      "inputType": "TEXT_INPUT",
+      "key": "name",
+      "mutable": true,
+      "placeholder": "First and last name",
+      "textType": "NAME",
+      "title": "Name"
+    },
+    {
+      "inputType": "PICKER",
+      "key": "grade",
+      "mutable": true,
+      "options": ["9", "10", "11", "12", "Faculty"],
+      "placeholder": "Grade",
+      "title": "Grade"
+    },
+    {
+      "inputType": "PICKER",
+      "key": "lunchSession",
+      "mutable": true,
+      "options": ["cohort A", "cohort B", "fac/staff"],
+      "placeholder": "Lunch Session",
+      "title": "Lunch Session"
+    },
+    {
+      "inputType": "PICKER",
+      "key": "podColor(mon/tues)",
+      "mutable": true,
+      "options": [
+        "fac/staff",
+        "mango",
+        "ivory",
+        "deep green",
+        "navy blue",
+        "yellow",
+        "lilac",
+        "purple",
+        "pink",
+        "orange",
+        "lime",
+        "salmon",
+        "goldenrod",
+        "green",
+        "blue"
+      ],
+      "placeholder": "Pod Color (Mon/Tues)",
+      "title": "Pod Color (Mon/Tues)"
+    },
+    {
+      "inputType": "PICKER",
+      "key": "podColor(thurs/fri)",
+      "mutable": true,
+      "options": [
+        "fac/staff",
+        "mango",
+        "ivory",
+        "deep green",
+        "navy blue",
+        "yellow",
+        "lilac",
+        "purple",
+        "pink",
+        "orange",
+        "lime",
+        "salmon",
+        "goldenrod",
+        "green",
+        "blue"
+      ],
+      "placeholder": "Pod Color (Thurs/Fri)",
+      "title": "Pod Color (Thurs/Fri)"
+    },
+    {
+      "inputType": "TEXT_INPUT",
+      "key": "allergies",
+      "mutable": true,
+      "placeholder": "Allergies (enter \"none\" if no allergies)",
+      "textType": "PLAIN",
+      "title": "Allergies"
+    }
+  ]
+}
