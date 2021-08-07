@@ -67,10 +67,6 @@ def setup_background(canvas, doc):
     canvas.restoreState()
 
 
-# def page_height(num_lines, styles):
-#
-
-
 def create_pdf(filename, order, user, app_data):
     order_options = app_data["orderOptions"]
     user_fields = app_data["userFields"]
